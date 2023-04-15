@@ -1,0 +1,105 @@
+@import url(../css/bootstrap.min.css);
+@import url(../css/swiper.min.css);
+.navbar {
+  display: flex; }
+
+.pt-50 {
+  padding-top: 50px; }
+
+.pb-50 {
+  padding-bottom: 50px; }
+
+.gutter-15.row {
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.gutter-15 > [class^="col-"], .gutter-2 > [class^=" col-"] {
+  padding: 15px; }
+
+.border-1 {
+  border: 1px solid #000000; }
+
+.bg-yellow {
+  background-color: yellow; }
+
+.w-100 {
+  width: 100%; }
+
+.img-cover {
+  height: 100%;
+  object-fit: cover; }
+
+.mh-200 {
+  max-height: 200px; }
+
+.mt-100 {
+  margin-top: 100px; }
+
+.mh-200 {
+  max-height: 200px;
+  height: 200px; }
+
+.h-300 {
+  height: 300px; }
+
+.nested {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  height: 100%; }
+  .nested__top {
+    display: flex; }
+  .nested__item {
+    padding: 0 15px;
+    flex: 1 1 33%;
+    max-width: 33.333%; }
+    .nested__item.full-width {
+      flex: 1 1 100%;
+      max-width: 100%; }
+      .nested__item.full-width .nested__block {
+        max-height: 130px;
+        height: 130px; }
+    .nested__item.big {
+      flex: 0 0 50%;
+      max-width: 50%;
+      height: 100%; }
+  .nested__block {
+    max-height: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+.slider--slide {
+  padding: 10px 0;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000; }
+.slider--content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; }
+.slider--title {
+  font-size: 18px;
+  font-weight: 600; }
+.slider--text {
+  font-size: 14px;
+  font-weight: 400; }
+.slider .btn {
+  width: fit-content;
+  padding: 5px 15px; }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+    padding: 0 15px; } }
+@media all and (min-width: 992px) {
+  .navbar .nav-item .nav-link {
+    padding: 10px 15px; }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block; }
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+    margin-top: 0; } }
+
+/*# sourceMappingURL=main.css.map */

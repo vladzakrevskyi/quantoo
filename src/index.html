@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="./images/favicon.png">
     <title>Title</title>
+    <link rel="stylesheet" href="css/main.css"/>
 </head>
 <body>
 <!-- START HEADER -->
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Test</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
@@ -44,15 +45,115 @@
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
 </header>
 <!-- END HEADER -->
+
+<!-- START CONTENT -->
+<section class="pt-50 pb-50">
+    <div class="container">
+        <div class="row gutter-15">
+            <div class="col-3 mh-200">
+                <img class="img-fluid w-100 img-cover border-1" src="images/test.png" alt="Image 1" width="400"
+                     height="200">
+            </div>
+            <div class="col-6 mh-200">
+                <img class="img-fluid w-100 img-cover border-1" src="images/test.png" alt="Image 2" width="400"
+                     height="200">
+            </div>
+            <div class="col-3 mh-200">
+                <img class="img-fluid w-100 img-cover border-1" src="images/test.png" alt="Image 3" width="400"
+                     height="200">
+            </div>
+            <div class="col-4 mh-200">
+                <img class="img-fluid w-100 img-cover border-1" src="images/test.png" alt="Image 4" width="400"
+                     height="200">
+            </div>
+            <div class="col-5 mh-200">
+                <img class="img-fluid w-100 img-cover border-1" src="images/test.png" alt="Image 5" width="400"
+                     height="200">
+            </div>
+            <div class="col-3 mh-200">
+                <img class="img-fluid w-100 img-cover border-1" src="images/test.png" alt="Image 6" width="400"
+                     height="200">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pt-50 pb-50">
+    <div class="container">
+        <div class="row gutter-15 align-items-lg-stretch">
+            <div class="col-6">
+                <div class="border-1 nested">
+                    <div class="nested__top">
+                        <div class="nested__item">
+                            <div class="nested__block bg-yellow">
+                                <p>1</p>
+                            </div>
+                        </div>
+                        <div class="nested__item">
+                            <div class="nested__block bg-yellow">
+                                <p>2</p>
+                            </div>
+                        </div>
+                        <div class="nested__item">
+                            <div class="nested__block bg-yellow">
+                                <p>3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nested__bottom">
+                        <div class="nested__item big mh-200">
+                            <div class="nested__block bg-yellow">
+                                <p>4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="border-1 nested">
+                    <div class="nested__item full-width">
+                        <div class="nested__block bg-yellow"></div>
+                    </div>
+                    <div class="nested__item full-width mh-200">
+                        <div class="nested__block bg-yellow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pt-50 pb-50">
+    <div class="container">
+        <div class="swiper slider">
+            <div class="swiper-wrapper">
+            </div>
+            <div class="swiper-pagination"></div>
+
+            <div class="slider--navigation__top">
+                <div class="swiper-button-prev">
+                </div>
+                <div class="swiper-button-next">
+                </div>
+            </div>
+
+            <div class="slider--navigation__bottom">
+                <div class="swiper-button-prev">
+                </div>
+                <div class="swiper-button-next">
+                </div>
+            </div>
+
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+</section>
+<!-- END CONTENT -->
 
 <!-- START FOOTER -->
 <footer>
@@ -129,5 +230,10 @@
     </div>
 </footer>
 <!-- END FOOTER -->
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>
